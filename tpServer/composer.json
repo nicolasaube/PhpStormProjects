@@ -1,0 +1,6 @@
+{
+    "require": {
+        "silex/silex": "^2.2",
+        "jguyomard/silex-capsule-eloquent": "^2.0"
+    }
+}

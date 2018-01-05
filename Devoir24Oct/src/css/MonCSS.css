@@ -1,0 +1,260 @@
+
+h1, h2, h3, h4, h5, h6, .company {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+}
+a {
+    color: #ffffff;
+}
+#main a{
+    color: #7c7c7c;
+}
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+p,li,span {
+    font-family: 'VT323', monospace;
+    line-height: 1.5;
+    font-size: large;
+}
+#main-container{
+    margin: 100px auto;
+    background:rgba(0,0,0,0.5);
+    padding: 0;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    top:0;
+}
+
+#side{
+    padding: 0;
+    color:white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#main{
+    background: rgba(255,255,255,0.8);
+    padding: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 10px;
+}
+.name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profile {
+    display: block;
+    margin: 0px auto 15px;
+    border-radius: 100%;
+    width: 70%;
+    filter: drop-shadow(0px 0px 20px white);
+
+}
+.profile:hover {
+    content:url("https://www.sideshowtoy.com/photo_200072_thumb.jpg");
+    filter: drop-shadow(0px 0px 20px red);
+}
+.contact-list .fa {
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.contact-list li {
+    margin-bottom: 15px;
+}
+.contact-list .email .fa {
+    font-size: 14px;
+}
+.container-block {
+    padding: 30px;
+}
+.container-block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.languages-list {
+    margin-bottom: 0;
+}
+.languages-list li {
+    margin-bottom: 10px;
+}
+.interests-list {
+    margin-bottom: 0;
+}
+.interests-list li {
+    margin-bottom: 10px;
+}
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.section-title .fa {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+.section {
+    margin-bottom: 60px;
+}
+.experiences-section .item {
+    margin-bottom: 30px;
+}
+.upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+.job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #999999;
+}
+.company {
+    margin-bottom: 10px;
+    color: #939393;
+}
+.project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.projects-section .item {
+    margin-bottom: 15px;
+}
+.badge {
+    font-family: Arial, serif;
+    font-size: large;
+}
+
+/*Video background*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 1920px;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    #main-container{
+        margin: 0px;
+    }
+    #side{
+        text-align: center;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+    .profile {
+        width: 30%;
+    }
+    .profile-container{
+        border-top-right-radius: 10px;
+    }
+    #main {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1920px) {
+    .video-container {
+        width: 100%;
+    }
+}
+
+
+
+
+

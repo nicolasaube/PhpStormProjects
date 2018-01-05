@@ -1,0 +1,8 @@
+{
+    "require": {
+        "doctrine/orm": "^2.5",
+        "fzaninotto/faker": "^1.7",
+        "symfony/var-dumper": "^4.0",
+        "twig/twig": "^2.4"
+    }
+}
