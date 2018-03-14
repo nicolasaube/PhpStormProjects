@@ -66,13 +66,7 @@ p,li,span {
     display: block;
     margin: 0px auto 15px;
     border-radius: 100%;
-    width: 70%;
-    filter: drop-shadow(0px 0px 20px white);
-
-}
-.profile:hover {
-    content:url("https://www.sideshowtoy.com/photo_200072_thumb.jpg");
-    filter: drop-shadow(0px 0px 20px red);
+    width: 60%;
 }
 .contact-list .fa {
     margin-right: 5px;
